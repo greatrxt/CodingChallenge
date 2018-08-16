@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shaadi</string>
+    <string name="app_version">v1.0</string>
+    <string name="my_matches">My Matches (10)</string>
+    <string name="progress_dialog_loading">loading</string>
+    <string name="dismiss_profile">Dismiss Profile ?</string>
+    <string name="view_profile">View Profile</string>
+</resources>

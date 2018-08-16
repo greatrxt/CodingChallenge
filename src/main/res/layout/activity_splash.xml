@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.shaadi.activity.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewShaadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Shaadi"
+            android:textColor="@color/white"
+            android:textSize="55sp"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:id="@+id/textViewCom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=".com"
+            android:layout_marginLeft="-12dp"
+            android:layout_marginBottom="5dp"
+            android:rotation="-90"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textViewAppVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="18dp"
+        android:text="@string/app_version"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+</RelativeLayout>
